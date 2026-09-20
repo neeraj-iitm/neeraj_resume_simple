@@ -1,0 +1,29 @@
+%-------------------------
+% simple_preamble.tex
+% Bare-basic preamble — standard packages only.
+% No fontawesome / lato / marvosym / hyphenat required.
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[top=0.5in, bottom=0.5in, left=0.55in, right=0.55in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage[dvipsnames]{xcolor}
+
+% ---- Page style ----
+\pagestyle{empty}
+
+% ---- Typography ----
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\urlstyle{same}
+
+% ---- Section formatting ----
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries\color{NavyBlue}
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
