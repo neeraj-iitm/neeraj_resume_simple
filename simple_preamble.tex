@@ -27,3 +27,23 @@
   \vspace{-4pt}\scshape\raggedright\large\bfseries\color{NavyBlue}
 }{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
 
+% ---- List styling ----
+% Use a more refined bullet hierarchy for resume content.
+\setlist[itemize,1]{
+  leftmargin=0.2in,
+  label=\textcolor{NavyBlue}{\small\raisebox{0.2ex}{\textbullet}},
+  itemsep=2pt,
+  topsep=2pt
+}
+\setlist[itemize,2]{
+  leftmargin=0.25in,
+  label=\textcolor{gray}{\scriptsize\textendash},
+  itemsep=1pt,
+  topsep=1pt
+}
+\setlist[itemize,3]{
+  leftmargin=0.3in,
+  label=\textcolor{gray}{\scriptsize\textbullet},
+  itemsep=1pt,
+  topsep=1pt
+}
