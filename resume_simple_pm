@@ -1,0 +1,16 @@
+% resume_simple_control_engineer.tex
+% Driver file for the Control Engineer profile (bare-basic, no unavailable packages)
+\input{simple_preamble}
+
+\begin{document}
+
+\input{simple_common/heading}
+
+\input{simple_profiles/control_engineer/skills}
+\input{simple_profiles/control_engineer/experience}
+% \newpage
+\input{simple_profiles/control_engineer/projects}
+
+\input{simple_common/education}
+
+\end{document}
